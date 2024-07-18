@@ -1,6 +1,7 @@
 num = int(input("DIGITE UM NUMERO: "))
 maior = num
 menor = num
+
 while num > 0:
     if num > maior:
         maior = num
@@ -8,6 +9,5 @@ while num > 0:
         menor = num
     num = int(input("DIGITE UM NUMERO: "))
 
-print(maior)
-print(menor)
-print("FIM")
+print("Maior: ",maior)
+print("Menor: ",menor)

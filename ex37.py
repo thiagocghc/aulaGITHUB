@@ -1,15 +1,17 @@
-num = int(input("DIGITE UM NUMERO: "))
+num = int(input("DIGITE UM NÚMERO: "))
+while num < 2:
+    num = int(input("DIGITE UM NÚMERO: "))
+
 i = num
 cont = 0
 while i >= 1:
     if num % i == 0:
-        cont = cont + 1
         print(i)
+        cont += 1
+        i = i - 1
     i = i - 1
 
-print(cont)
 if cont == 2:
-    print(f"{num} é primo!!")
+    print(f"{num} é primo!")
 else:
-    print(f"{num} não é primo!!")
-
+    print(f"{num} Não é Primo!!")

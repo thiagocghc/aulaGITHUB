@@ -1,17 +1,18 @@
-lista = []
-par = []
-impar = []
+numeros = []
+pares = []
+impares = []
 
 i = 0
 while i < 20:
-    num = int(input("DIGITE UM NUMERO: "))
-    lista.append(num)
+    num = int(input("Digite um número: "))
+    numeros.append(num)
     if num % 2 == 0:
-        par.append(num)
+        pares.append(num)
     else:
-        impar.append(num)
+        impares.append(num)
     i = i + 1
 
-print(lista)
-print(par)
-print(impar)
+print("LISTA DE NUMEROS DIGITADOS: ",numeros)
+print("TOTAL DE NUMEROS DIGITADOS: ",sum(numeros))
+print("TOTAL DE PARES: ",pares)
+print("TOTAL DE IMPARES: ",impares)

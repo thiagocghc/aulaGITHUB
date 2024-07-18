@@ -1,10 +1,10 @@
-salario = 4000 #SALARIO INICIAL
-ano = 2021     #CONTADOR 
-aumento = 0.015 #PERCENTUAL
+salario = 4000
+ano = 2020
+aumento = 0.015
 
 while ano <= 2024:
-    print(f"PERCENTUAL {aumento} ANO: {ano}")
+    print(f'Ano: {ano} Percentual: {aumento} ')
     salario += salario * aumento
-    aumento *= 2  ####VALOR ATUAL x2
-    print("NOVO SALARIO: ",salario)
-    ano = ano + 1
+    aumento *= 2
+    print(f' R$ {salario:.2f}')
+    ano += 1

@@ -1,12 +1,10 @@
 cont = 1
 numerador = 1
-denominador = 1
 s = 0
 while cont <= 50:
-    s += numerador / denominador
+    s += numerador / cont
+    print(f"Loop {cont} Valor: {s}")
     numerador += 2
-    denominador += 1
-    cont = cont + 1
-    print(s)
+    cont += 1
 
-print(f"RESULTADO FINAL: {s:.2f}")
+print(f"TOTAL: {s:.3f}")
