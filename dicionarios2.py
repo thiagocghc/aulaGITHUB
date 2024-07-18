@@ -1,16 +1,9 @@
 empresa = {'razaosocial': 'P & P LTDA',
            'tipo':'Prog de Sites', 
            'CNPJ': 1231456464, 
-           'cidade': 'São Paulo',
-           'filial':'Tatuapé'
+           'cidade': 'São Paulo'
            }
 
-# for key in empresa.keys():
-#     print(key)
-
-# print()
-# for value in empresa.values():
-#     print(value)
 
 for key,value in empresa.items():
     print(key," : ",value)
@@ -27,4 +20,4 @@ for key,value in empresa.items():
 
 
 
-
+print("ALTERADO COM SUCESSO!")
